@@ -1,0 +1,60 @@
+:root {
+	font-size: 16px;
+	}
+
+.flexboxparentcss {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	height: 50vh;
+	margin: 2rem; 
+	perspective: 500px;
+}
+.flexboxcss {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	width: 25vw;
+	height: 30vh;
+	margin: 1rem;
+	border: solid #ddd;
+}
+.flexboxcss:hover {
+	transition: all 0.2s ease ;
+    transform: translateZ(50px);
+}
+.imagecss{
+	height: 100%;
+	width: 150px;
+}
+.buttoncss{
+	margin-left: 1.5rem;
+	margin-top: 2rem;
+}
+.divcss{
+	height: 100%
+}
+.detailscss{
+	margin-top: 1rem;
+}
+.detailparentdivcss{
+    display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	height: 80vh;
+	margin: 2rem;
+}
+.detaildivcss {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	width: 70vw;
+	height: 50vh;
+	margin: 1rem;
+	border: solid #ddd;
+}
+.backbuttoncss{
+	margin-top: 0.5rem;
+}
